@@ -1,6 +1,6 @@
 ﻿namespace ForgingAhead.Models
 {
-    public class Character
+    public class Character : Person
     {
 
         public string Name { get; set; }
