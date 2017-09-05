@@ -5,7 +5,7 @@
 
         public string Name { get; set; }
         public bool IsActive { get; set; }
-        public bool IsNotActive { get { retur !IsActive; } }
+        public bool IsNotActive { get { return !IsActive; } }
         public int Level { get; set; }
         public int StrengthOrForce { get; set; }
         public int Dexteriry { get; set; }
